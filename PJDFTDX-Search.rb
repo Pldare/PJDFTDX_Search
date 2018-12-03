@@ -89,7 +89,7 @@ def fun_name
 	end
 end
 
-old_photo_id=$gm_module_list[1].to_s+old_photo_id.to_s
+old_photo_id="."+$gm_module_list[1].to_s+old_photo_id.to_s
 r_photo_id=Regexp.new(old_photo_id)
 
 old_modu_file=File.open("data/gm_list")
